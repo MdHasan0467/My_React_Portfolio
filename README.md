@@ -1,3 +1,13 @@
+### Project Name : My Personal Portfolio
+
+
+### Installation:
+1. React router dom
+2. Install Tailwindcss
+3. install daisyui
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
