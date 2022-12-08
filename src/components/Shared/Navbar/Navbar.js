@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-			<div>
-				<div className='navbar bg-base-100'>
+			<div className=''>
+				<div className='navbar bg-[#2a2d3a]'>
 					<div className='flex-1'>
 						<a className='btn btn-ghost normal-case text-xl'>daisyUI</a>
 					</div>
@@ -25,7 +25,7 @@ const Navbar = () => {
 										<path d='M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z' />
 									</svg>
 								</a>
-								<ul className='p-2 bg-base-100'>
+								<ul className='p-2 bg-[#242734]'>
 									<li>
 										<a>Submenu 1</a>
 									</li>
