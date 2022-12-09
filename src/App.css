@@ -1,3 +1,90 @@
+.title{
+  animation-name: moveRight;
+  animation-duration: 0.7s;
+}
+.titleTwo{
+  animation-name: moveLeft;
+  animation-duration: 1s;
+}
+.titleThree{
+  animation-name: moveRight;
+  animation-duration: 1.3s;
+  color: #fbff00;
+  margin-bottom: 10px;
+}
+
+@keyframes moveRight {
+  0%{
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveLeft {
+  0%{
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+
+
+.text{
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+/*! === Button ====> */
+.button{
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  outline: none;
+  background-color: cyan;
+  color: #000;
+  padding: 12px 25px;
+  position: relative;
+  transform: translateZ(0);
+  animation-name: moveUp;
+  animation-duration: 1s;
+  cursor: pointer;
+}
+.button::before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fbff00;
+  transform: scaleX(0);
+  transition: 300ms ease-out;
+}
+.button:hover::before{
+  transform: scaleX(1);
+}
+@keyframes moveUp {
+  0%{
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+/* !====== END =========> */
+
+
 .App {
   text-align: center;
 }

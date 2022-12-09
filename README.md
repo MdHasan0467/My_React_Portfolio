@@ -1,10 +1,12 @@
 ### Project Name : My Personal Portfolio
 
+# added custom css in App.css file
 
 ### Installation:
 1. React router dom
 2. Install Tailwindcss
 3. install daisyui
+4. npm i typewriter-effect
 
 
 
