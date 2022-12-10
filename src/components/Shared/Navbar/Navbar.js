@@ -6,7 +6,7 @@ const Navbar = () => {
 			<div className=''>
 				<div className='navbar bg-[#2a2d3a] hidden md:flex'>
 					<div className='flex-1'>
-						<img className='w-[100px]' src='hasanText.png' alt='' />
+						<Link to='/'><img className='w-[100px]' src='hasanText.png' alt='' /></Link>
 					</div>
 
 					<div className='flex-none'>
@@ -29,12 +29,12 @@ const Navbar = () => {
 				</div>
 				<div className='navbar bg-[#2a2d3a] flex md:hidden'>
 					<div className='flex-1'>
-						<img className='w-[100px]' src='hasanText.png' alt='' />
+						<Link to='/'><img className='w-[100px]' src='hasanText.png' alt='' /></Link>
 					</div>
 					<div className='flex-none'>
 						<div className='dropdown dropdown-end'>
 							<label tabIndex={0} className='btn btn-ghost btn-circle avatar'>
-								<div className='w-10 rounded-full'>=</div>
+								<div className='w-10 rounded-full'>🔰</div>
 							</label>
 							<ul
 								tabIndex={0}
