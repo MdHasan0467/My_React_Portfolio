@@ -1,43 +1,60 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
 			<div className=''>
-				<div className='navbar bg-[#2a2d3a]'>
+				<div className='navbar bg-[#2a2d3a] hidden md:flex'>
 					<div className='flex-1'>
-						<a className='btn btn-ghost normal-case text-xl'>daisyUI</a>
+						<img className='w-[100px]' src='hasanText.png' alt='' />
 					</div>
+
 					<div className='flex-none'>
-						<ul className='menu menu-horizontal p-0'>
+						<ul className='menu menu-horizontal p-0 hidden md:flex'>
 							<li>
-								<a>Item 1</a>
-							</li>
-							<li tabIndex={0}>
-								<a>
-									Parent
-									<svg
-										className='fill-current'
-										xmlns='http://www.w3.org/2000/svg'
-										width='20'
-										height='20'
-										viewBox='0 0 24 24'
-									>
-										<path d='M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z' />
-									</svg>
-								</a>
-								<ul className='p-2 bg-[#242734]'>
-									<li>
-										<a>Submenu 1</a>
-									</li>
-									<li>
-										<a>Submenu 2</a>
-									</li>
-								</ul>
+								<Link to='/'>Home</Link>
 							</li>
 							<li>
-								<a>Item 3</a>
+								<Link to='/about'>About</Link>
+							</li>
+							<li>
+								<Link to='/projects'>Projects</Link>
+							</li>
+							
+							<li>
+								<Link to='/contact'>Contact</Link>
 							</li>
 						</ul>
+					</div>
+				</div>
+				<div className='navbar bg-[#2a2d3a] flex md:hidden'>
+					<div className='flex-1'>
+						<img className='w-[100px]' src='hasanText.png' alt='' />
+					</div>
+					<div className='flex-none'>
+						<div className='dropdown dropdown-end'>
+							<label tabIndex={0} className='btn btn-ghost btn-circle avatar'>
+								<div className='w-10 rounded-full'>=</div>
+							</label>
+							<ul
+								tabIndex={0}
+								className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-[#1f212c] rounded-box w-52'
+							>
+								<li>
+									<Link to='/'>Home</Link>
+								</li>
+								<li>
+									<Link to='/about'>About</Link>
+								</li>
+								<li>
+									<Link to='/projects'>Projects</Link>
+								</li>
+								
+								<li>
+									<Link to='/contact'>Contact</Link>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>

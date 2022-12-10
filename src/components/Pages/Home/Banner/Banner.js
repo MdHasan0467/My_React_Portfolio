@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Typewriter from 'typewriter-effect';
+// import Typewriter from 'typewriter-effect';
 
 const Banner = () => {
     const [state] = useState({
@@ -16,23 +16,11 @@ const Banner = () => {
 							className='max-w-sm rounded-lg shadow-2xl'
 						/>
 						<div>
-							<h1 className='text-5xl font-bold'>Box Office News!</h1>
-                        <p className=' title'>{state.title}</p>
-                        <p className=' titleTwo'>{state.titleTwo}</p>
-                        <p className=' titleThree'>{state.titleThree}</p>
-                        <div className='text'>
-                            <Typewriter option={{
-                            autoStart: true,
-                            loop: true,
-                            delay: 40,
-                            string: [
-                                "I'm a web developer",
-                                "I'm a react developer",
-                                "I'm a front-end developer"
-                            ],
-                            }}/>
-                        </div>
-							<button className='button'>Get Started</button>
+							<h2 className=' title'>{state.title}</h2>
+							<h2 className=' titleTwo'>{state.titleTwo}</h2>
+							<h2 className=' titleThree'>{state.titleThree}</h2>
+							
+							<button className='button'>HIRE ME</button>
 						</div>
 					</div>
 				</div>
