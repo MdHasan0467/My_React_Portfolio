@@ -19,8 +19,18 @@ const Banner = () => {
 							<h2 className=' title'>{state.title}</h2>
 							<h2 className=' titleTwo'>{state.titleTwo}</h2>
 							<h2 className=' titleThree'>{state.titleThree}</h2>
-							
-							<button className='button'>HIRE ME</button>
+
+							<div className='flex mx-2'>
+								<button className='button font-serif font-bold'>HIRE ME</button>
+								<button className='button  font-serif font-bold mx-3'>
+									<a
+										target={'_blank'}
+										href='https://drive.google.com/file/d/1PeVj9omaA-88c1TrNBZHNgbGkqRGzrLd/view?usp=sharing'
+									>
+										RESUME
+									</a>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
