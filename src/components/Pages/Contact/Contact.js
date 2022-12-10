@@ -11,22 +11,39 @@ const Contact = () => {
 							</p>
 						</div>
 						<div className='card flex-shrink-0 w-full max-w-sm shadow-2xl bg-[#242734] text-white'>
-							<div className='card-body'>
+							<form
+								action='https://formspree.io/f/mvoyedly'
+								method='POST'
+								className='card-body'
+							>
 								<div className='form-control'>
 									<label className='label'>
 										<span className='label-text text-white'>Email</span>
 									</label>
 									<input
-										type='text'
-										placeholder='email'
-										className='input input-bordered'
+										type='email'
+										name='email'
+										placeholder='Your email'
+										className='input text-gray-800 input-bordered'
 									/>
+								</div>
+								<div className='form-control'>
+									<label className='label'>
+										<span className='label-text text-white'>message</span>
+									</label>
+									<textarea
+										name='message'
+										className='textarea text-gray-800 textarea-bordered'
+										placeholder='Your message'
+									></textarea>
 								</div>
 
 								<div className='form-control mt-6'>
-									<button className='btn btn-primary'>Contact Now</button>
+									<button type='submit' className='btn btn-primary'>
+										Send
+									</button>
 								</div>
-							</div>
+							</form>
 						</div>
 					</div>
 				</div>

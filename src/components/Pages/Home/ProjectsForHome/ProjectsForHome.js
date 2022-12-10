@@ -1,11 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Projects = () => {
+const ProjectsForHome = () => {
     return (
-			<div className='min-h-screen'>
-				<h1 className='text-4xl mb-20 text-pink-500 font-serif font-bold'>
-					My All Projects
-				</h1>
+			<div>
 				<div className='grid grid-cols-1 lg:grid-cols-3 gap-4 lg:ml-7'>
 					<div className='card w-96 bg-base-100 shadow-xl image-full'>
 						<figure>
@@ -24,27 +22,14 @@ const Projects = () => {
 							</p>
 							<div className='card-actions flex justify-end'>
 								<button className='button'>
-									<a
-										target={'blank'}
-										href='https://github.com/MdHasan0467/Backend-and-database-integrate-client'
-									>
-										Source Code
-									</a>
-								</button>
-								<button className='button'>
-									<a
-										target={'blank'}
-										href='https://assignment-eleven-30dd0.web.app/'
-									>
-										Details
-									</a>
+									<Link to='/photoshopdetails'>Details</Link>
 								</button>
 							</div>
 						</div>
 					</div>
 					<div className='card w-96 bg-base-100 shadow-xl image-full'>
 						<figure>
-							<img src='usedCarCover.png' alt='Used Car' />
+							<img src='usedCarCover.png' alt='Shoes' />
 						</figure>
 						<div className='card-body'>
 							<h1 className='text-lg text-yellow-400 text-start text-bold font-serif'>
@@ -59,20 +44,7 @@ const Projects = () => {
 							</p>
 							<div className='card-actions flex justify-end'>
 								<button className='button'>
-									<a
-										target={'blank'}
-										href='https://github.com/MdHasan0467/build-won-complete-project-client'
-									>
-										Source Code
-									</a>
-								</button>
-								<button className='button'>
-									<a
-										target={'blank'}
-										href='https://assignment-twelve-b5667.web.app/'
-									>
-										Details
-									</a>
+									<Link to='/usedcardetails'>Details</Link>
 								</button>
 							</div>
 						</div>
@@ -94,20 +66,7 @@ const Projects = () => {
 							</p>
 							<div className='card-actions flex justify-end'>
 								<button className='button'>
-									<a
-										target={'blank'}
-										href='https://github.com/MdHasan0467/react-authentication-client'
-									>
-										Source Code
-									</a>
-								</button>
-								<button className='button'>
-									<a
-										target={'blank'}
-										href='https://assignment-ten-625db.web.app/courses'
-									>
-										Details
-									</a>
+									<Link to='/onlinecoursedetails'>Details</Link>
 								</button>
 							</div>
 						</div>
@@ -117,4 +76,4 @@ const Projects = () => {
 		);
 };
 
-export default Projects;
+export default ProjectsForHome;
