@@ -21,9 +21,9 @@ const ProjectsForHome = () => {
 								Dotenv, Express.js, Node.js,MongoDB
 							</p>
 							<div className='card-actions flex justify-end'>
-								<button className='button'>
-									<Link to='/photoshopdetails'>Details</Link>
-								</button>
+								
+									<Link className='button' to='/photoshopdetails'>Details</Link>
+								
 							</div>
 						</div>
 					</div>
@@ -43,9 +43,9 @@ const ProjectsForHome = () => {
 								Dotenv, Express.js, Node.js,MongoDB
 							</p>
 							<div className='card-actions flex justify-end'>
-								<button className='button'>
-									<Link to='/usedcardetails'>Details</Link>
-								</button>
+								
+									<Link className='button' to='/usedcardetails'>Details</Link>
+								
 							</div>
 						</div>
 					</div>
@@ -65,9 +65,9 @@ const ProjectsForHome = () => {
 								Dotenv, Express.js
 							</p>
 							<div className='card-actions flex justify-end'>
-								<button className='button'>
-									<Link to='/onlinecoursedetails'>Details</Link>
-								</button>
+								
+									<Link className='button' to='/onlinecoursedetails'>Details</Link>
+								
 							</div>
 						</div>
 					</div>

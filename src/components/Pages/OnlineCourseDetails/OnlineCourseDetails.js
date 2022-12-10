@@ -111,22 +111,22 @@ const OnlineCourseDetails = () => {
 							mobile friendly responsive.
 						</p>
 						<div className='card-actions flex justify-end'>
-							<button className='button'>
-								<a
+							
+								<a className='button'
 									target={'blank'}
 									href='https://github.com/MdHasan0467/react-authentication-client'
 								>
 									Source Code
 								</a>
-							</button>
-							<button className='button'>
-								<a
+							
+							
+								<a className='button'
 									target={'blank'}
 									href='https://assignment-ten-625db.web.app/courses'
 								>
 									Details
 								</a>
-							</button>
+							
 						</div>
 					</div>
 				</div>

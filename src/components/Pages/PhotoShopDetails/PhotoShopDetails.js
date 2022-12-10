@@ -111,22 +111,22 @@ const PhotoShopDetails = () => {
 						mobile friendly responsive.
 					</p>
 					<div className='card-actions flex justify-end'>
-						<button className='button'>
-							<a
+						
+							<a className='button'
 								target={'blank'}
 								href='https://github.com/MdHasan0467/Backend-and-database-integrate-client'
 							>
 								Source Code
 							</a>
-						</button>
-						<button className='button'>
-							<a
+						
+						
+							<a className='button'
 								target={'blank'}
 								href='https://assignment-eleven-30dd0.web.app/'
 							>
 								LIVE
 							</a>
-						</button>
+						
 					</div>
 				</div>
 			</div>

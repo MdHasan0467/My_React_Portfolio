@@ -123,22 +123,22 @@ const UsedCarDetails = () => {
 						mobile friendly responsive.
 					</p>
 					<div className='card-actions flex justify-end'>
-						<button className='button'>
-							<a
+						
+							<a className='button'
 								target={'blank'}
 								href='https://github.com/MdHasan0467/build-won-complete-project-client'
 							>
 								Source Code
 							</a>
-						</button>
-						<button className='button'>
-							<a
+						
+						
+							<a className='button'
 								target={'blank'}
 								href='https://assignment-twelve-b5667.web.app/'
 							>
 								LIVE
 							</a>
-						</button>
+						
 					</div>
 				</div>
 			</div>
