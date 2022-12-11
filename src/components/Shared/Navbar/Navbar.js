@@ -44,20 +44,20 @@ const Navbar = () => {
 							</label>
 							<ul
 								tabIndex={0}
-								className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-[#1f212c] rounded-box w-52'
+								className='menu menu-compact dropdown-content mt-3 p-2 pb-4 shadow bg-[#1f212c] rounded-box w-52'
 							>
 								<li>
-									<Link className='nav' to='/'>Home</Link>
+									<Link className='nav mt-5' to='/'>Home</Link>
 								</li>
 								<li>
-									<Link className='nav' to='/about'>About</Link>
+									<Link className='nav mt-5' to='/about'>About</Link>
 								</li>
 								<li>
-									<Link className='nav' to='/projects'>Projects</Link>
+									<Link className='nav mt-5' to='/projects'>Projects</Link>
 								</li>
 
 								<li>
-									<Link className='nav' to='/contact'>Contact</Link>
+									<Link className='nav mt-5' to='/contact'>Contact</Link>
 								</li>
 							</ul>
 						</div>
