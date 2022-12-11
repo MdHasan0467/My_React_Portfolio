@@ -16,11 +16,11 @@ const Banner = () => {
 							className='lg:max-w-sm rounded-lg shadow-2xl'
 						/>
 						<div>
-							<h2 className=' title'>{state.title}</h2>
-							<h2 className=' titleTwo'>{state.titleTwo}</h2>
-							<h2 className=' titleThree'>{state.titleThree}</h2>
+							<h2 className=' title text-4xl text-start my-2'>{state.title}</h2>
+							<h2 className=' titleTwo text-4xl text-start my-2'>{state.titleTwo}</h2>
+							<h2 className=' titleThree text-2xl text-start my-2'>{state.titleThree}</h2>
 
-							<div className='flex mx-2'>
+							<div className='flex mx-2 mt-20'>
 								<button className='button font-serif font-bold'>HIRE ME</button>
 								<button className='button  font-serif font-bold mx-3'>
 									<a
