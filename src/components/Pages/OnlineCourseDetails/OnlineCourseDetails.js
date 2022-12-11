@@ -19,7 +19,7 @@ const OnlineCourseDetails = () => {
 						>
 							<PhotoView src='course.png'>
 								<img
-									className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+									className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg md:w-52 my-5 md:my-2'
 									src='course.png'
 									alt='Photo'
 								/>
@@ -36,7 +36,7 @@ const OnlineCourseDetails = () => {
 						>
 							<PhotoView src='courseDetails.png'>
 								<img
-									className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+									className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg md:w-52 my-5 md:my-2'
 									src='courseDetails.png'
 									alt='Photo'
 								/>
@@ -53,7 +53,7 @@ const OnlineCourseDetails = () => {
 						>
 							<PhotoView src='courseCheckout.png'>
 								<img
-									className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+									className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg md:w-52 my-5 md:my-2'
 									src='courseCheckout.png'
 									alt='Photo'
 								/>
@@ -70,7 +70,7 @@ const OnlineCourseDetails = () => {
 						>
 							<PhotoView src='courseContact.png'>
 								<img
-									className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+									className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg md:w-52 my-5 md:my-2'
 									src='courseContact.png'
 									alt='Photo'
 								/>
@@ -87,7 +87,7 @@ const OnlineCourseDetails = () => {
 						>
 							<PhotoView src='courseBlog.png'>
 								<img
-									className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+									className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg md:w-52 my-5 md:my-2'
 									src='courseBlog.png'
 									alt='Photo'
 								/>
@@ -110,7 +110,7 @@ const OnlineCourseDetails = () => {
 							* Private route is also used for premium section. The project is
 							mobile friendly responsive.
 						</p>
-						<h1 className='text-lg text-[#4325c5] text-start text-bold font-serif'>
+						<h1 className='text-lg text-[#4325c5] animate-bounce text-start text-bold font-serif'>
 							🔰 Technologies used in this project:
 						</h1>
 						<p className='text-start'>
@@ -137,7 +137,7 @@ const OnlineCourseDetails = () => {
 								target={'blank'}
 								href='https://assignment-ten-625db.web.app/courses'
 							>
-								Details
+								LIVE
 							</a>
 						</div>
 					</div>

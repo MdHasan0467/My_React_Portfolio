@@ -28,15 +28,15 @@ const About = () => {
 										My Skills :
 									</h1>
 									<ul className='my-7'>
-										<li className='text-start hover:text-yellow-400 cursor-pointer'> ✅ HTML5</li>
-										<li className='text-start hover:text-yellow-400 cursor-pointer'> ✅ CSS3</li>
-										<li className='text-start hover:text-yellow-400 cursor-pointer'> ✅ Tailwindcss</li>
-										<li className='text-start hover:text-yellow-400 cursor-pointer'> ✅ Bootstrap</li>
-										<li className='text-start hover:text-yellow-400 cursor-pointer'> ✅ JavaScript</li>
-										<li className='text-start hover:text-yellow-400 cursor-pointer'> ✅ React js</li>
-										<li className='text-start hover:text-yellow-400 cursor-pointer'> ✅ Node js</li>
-										<li className='text-start hover:text-yellow-400 cursor-pointer'> ✅ Firebase</li>
-										<li className='text-start hover:text-yellow-400 cursor-pointer'> ✅ MongoDB</li>
+										<li className='text-start rounded-md hover:text-yellow-800 hover:bg-yellow-50 p-2 cursor-pointer'> ✅ HTML5</li>
+										<li className='text-start rounded-md hover:text-yellow-800 hover:bg-yellow-50 p-2 cursor-pointer'> ✅ CSS3</li>
+										<li className='text-start rounded-md hover:text-yellow-800 hover:bg-yellow-50 p-2 cursor-pointer'> ✅ Tailwindcss</li>
+										<li className='text-start rounded-md hover:text-yellow-800 hover:bg-yellow-50 p-2 cursor-pointer'> ✅ Bootstrap</li>
+										<li className='text-start rounded-md hover:text-yellow-800 hover:bg-yellow-50 p-2 cursor-pointer'> ✅ JavaScript</li>
+										<li className='text-start rounded-md hover:text-yellow-800 hover:bg-yellow-50 p-2 cursor-pointer'> ✅ React js</li>
+										<li className='text-start rounded-md hover:text-yellow-800 hover:bg-yellow-50 p-2 cursor-pointer'> ✅ Node js</li>
+										<li className='text-start rounded-md hover:text-yellow-800 hover:bg-yellow-50 p-2 cursor-pointer'> ✅ Firebase</li>
+										<li className='text-start rounded-md hover:text-yellow-800 hover:bg-yellow-50 p-2 cursor-pointer'> ✅ MongoDB</li>
 									</ul>
 								</div>
 								<div>
@@ -44,11 +44,11 @@ const About = () => {
 										Tools :
 									</h1>
 									<ul className='my-7'>
-										<li className='text-start hover:text-yellow-400 cursor-pointer'> ✅ Chrome Dev Tool</li>
-										<li className='text-start hover:text-yellow-400 cursor-pointer'> ✅ Visual Studio Code</li>
-										<li className='text-start hover:text-yellow-400 cursor-pointer'> ✅ Netlify</li>
-										<li className='text-start hover:text-yellow-400 cursor-pointer'> ✅ github</li>
-										<li className='text-start hover:text-yellow-400 cursor-pointer'> ✅ Vercel</li>
+										<li className='text-start rounded-md hover:text-yellow-800 hover:bg-yellow-50 p-2 cursor-pointer'> ✅ Chrome Dev Tool</li>
+										<li className='text-start rounded-md hover:text-yellow-800 hover:bg-yellow-50 p-2 cursor-pointer'> ✅ Visual Studio Code</li>
+										<li className='text-start rounded-md hover:text-yellow-800 hover:bg-yellow-50 p-2 cursor-pointer'> ✅ Netlify</li>
+										<li className='text-start rounded-md hover:text-yellow-800 hover:bg-yellow-50 p-2 cursor-pointer'> ✅ github</li>
+										<li className='text-start rounded-md hover:text-yellow-800 hover:bg-yellow-50 p-2 cursor-pointer'> ✅ Vercel</li>
 									</ul>
 								</div>
 							</div>

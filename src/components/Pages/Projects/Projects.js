@@ -23,22 +23,21 @@ const Projects = () => {
 								Dotenv, Express.js, Node.js,MongoDB
 							</p>
 							<div className='card-actions flex justify-end'>
-								
-									<a className='button'
-										target={'blank'}
-										href='https://github.com/MdHasan0467/Backend-and-database-integrate-client'
-									>
-										Source Code
-									</a>
-								
-								
-									<a className='button'
-										target={'blank'}
-										href='https://assignment-eleven-30dd0.web.app/'
-									>
-										Details
-									</a>
-								
+								<a
+									className='button'
+									target={'blank'}
+									href='https://github.com/MdHasan0467/Backend-and-database-integrate-client'
+								>
+									Source Code
+								</a>
+
+								<a
+									className='button'
+									target={'blank'}
+									href='https://assignment-eleven-30dd0.web.app/'
+								>
+									LIVE
+								</a>
 							</div>
 						</div>
 					</div>
@@ -58,22 +57,21 @@ const Projects = () => {
 								Dotenv, Express.js, Node.js,MongoDB
 							</p>
 							<div className='card-actions flex justify-end'>
-								
-									<a className='button'
-										target={'blank'}
-										href='https://github.com/MdHasan0467/build-won-complete-project-client'
-									>
-										Source Code
-									</a>
-								
-								
-									<a className='button'
-										target={'blank'}
-										href='https://assignment-twelve-b5667.web.app/'
-									>
-										Details
-									</a>
-								
+								<a
+									className='button'
+									target={'blank'}
+									href='https://github.com/MdHasan0467/build-won-complete-project-client'
+								>
+									Source Code
+								</a>
+
+								<a
+									className='button'
+									target={'blank'}
+									href='https://assignment-twelve-b5667.web.app/'
+								>
+									LIVE
+								</a>
 							</div>
 						</div>
 					</div>
@@ -93,22 +91,21 @@ const Projects = () => {
 								Dotenv, Express.js
 							</p>
 							<div className='card-actions flex justify-end'>
-								
-									<a className='button'
-										target={'blank'}
-										href='https://github.com/MdHasan0467/react-authentication-client'
-									>
-										Source Code
-									</a>
-								
-								
-									<a className='button'
-										target={'blank'}
-										href='https://assignment-ten-625db.web.app/courses'
-									>
-										Details
-									</a>
-								
+								<a
+									className='button'
+									target={'blank'}
+									href='https://github.com/MdHasan0467/react-authentication-client'
+								>
+									Source Code
+								</a>
+
+								<a
+									className='button'
+									target={'blank'}
+									href='https://assignment-ten-625db.web.app/courses'
+								>
+									LIVE
+								</a>
 							</div>
 						</div>
 					</div>

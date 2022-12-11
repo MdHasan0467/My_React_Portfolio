@@ -19,7 +19,7 @@ const PhotoShopDetails = () => {
 					>
 						<PhotoView src='photoShopHome.png'>
 							<img
-								className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+								className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg my-5 md:my-2'
 								src='photoShopHome.png'
 								alt='Photo'
 							/>
@@ -36,7 +36,7 @@ const PhotoShopDetails = () => {
 					>
 						<PhotoView src='photoShopAllDetails.png'>
 							<img
-								className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+								className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg my-5 md:my-2'
 								src='photoShopAllDetails.png'
 								alt='Photo'
 							/>
@@ -53,7 +53,7 @@ const PhotoShopDetails = () => {
 					>
 						<PhotoView src='photoShopMyReview.png'>
 							<img
-								className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+								className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg my-5 md:my-2'
 								src='photoShopMyReview.png'
 								alt='Photo'
 							/>
@@ -70,7 +70,7 @@ const PhotoShopDetails = () => {
 					>
 						<PhotoView src='photoShopAddASurvice.png'>
 							<img
-								className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+								className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg my-5 md:my-2'
 								src='photoShopAddASurvice.png'
 								alt='Photo'
 							/>
@@ -87,7 +87,7 @@ const PhotoShopDetails = () => {
 					>
 						<PhotoView src='photoShopLogin.png'>
 							<img
-								className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+								className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg my-5 md:my-2'
 								src='photoShopLogin.png'
 								alt='Photo'
 							/>
@@ -111,7 +111,7 @@ const PhotoShopDetails = () => {
 						mobile friendly responsive.
 					</p>
 
-					<h1 className='text-lg text-[#4325c5] text-start text-bold font-serif'>
+					<h1 className='text-lg text-[#4325c5] animate-bounce text-start text-bold font-serif'>
 						🔰 Technologies used in this project:
 					</h1>
 					<p className='text-start'>
@@ -120,7 +120,8 @@ const PhotoShopDetails = () => {
 					</p>
 
 					<p className='text-start'>
-						<span className='text-gray-800 font-bold'>Backend :</span> Cors, Dotenv, Express.js, Node.js
+						<span className='text-gray-800 font-bold'>Backend :</span> Cors,
+						Dotenv, Express.js, Node.js
 					</p>
 					<p className='text-start'>
 						<span className='text-gray-800 font-bold'>Database:</span> MongoDB

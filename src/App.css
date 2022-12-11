@@ -1,3 +1,7 @@
+
+
+/* todo: Banner text effect */
+
 .title{
   animation-name: moveRight;
   animation-duration: 0.7s;
@@ -34,13 +38,10 @@
   }
 }
 
+/* !=======>END<======== */
 
 
-.text{
-  font-size: 40px;
-  color: #fff;
-  margin-bottom: 20px;
-}
+
 /*! === Button ====> */
 .button{
   font-size: 16px;
@@ -82,7 +83,12 @@
   }
 }
 
-/* !====== END =========> */
+/* !=======>END<======== */
+
+
+
+
+/* !======THE END =========> */
 
 
 .App {

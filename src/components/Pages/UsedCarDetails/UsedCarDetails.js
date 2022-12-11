@@ -18,7 +18,7 @@ const UsedCarDetails = () => {
 					>
 						<PhotoView src='usedCarHome.png'>
 							<img
-								className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+								className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg md:w-52 my-5 md:my-2'
 								src='usedCarHome.png'
 								alt='car'
 							/>
@@ -34,7 +34,7 @@ const UsedCarDetails = () => {
 					>
 						<PhotoView src='usedCarLogIn.png'>
 							<img
-								className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+								className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg md:w-52 my-5 md:my-2'
 								src='usedCarLogIn.png'
 								alt='car'
 							/>
@@ -50,7 +50,7 @@ const UsedCarDetails = () => {
 					>
 						<PhotoView src='usedCarDashboard.png'>
 							<img
-								className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+								className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg md:w-52 my-5 md:my-2'
 								src='usedCarDashboard.png'
 								alt='car'
 							/>
@@ -66,7 +66,7 @@ const UsedCarDetails = () => {
 					>
 						<PhotoView src='usedCarRollsgroup.png'>
 							<img
-								className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+								className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg md:w-52 my-5 md:my-2'
 								src='usedCarRollsgroup.png'
 								alt='car'
 							/>
@@ -82,7 +82,7 @@ const UsedCarDetails = () => {
 					>
 						<PhotoView src='usedCarProfileDashboard.png'>
 							<img
-								className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+								className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg md:w-52 my-5 md:my-2'
 								src='usedCarProfileDashboard.png'
 								alt='car'
 							/>
@@ -99,7 +99,7 @@ const UsedCarDetails = () => {
 					>
 						<PhotoView src='usedCarAllBuyers.png'>
 							<img
-								className='object-cover object-center  h-96 w-[100%] md:w-52 my-5 md:my-2'
+								className='object-cover object-center  h-96 w-[90%] md:w-52 mx-5 md:mx-0 rounded-lg md:w-52 my-5 md:my-2'
 								src='usedCarAllBuyers.png'
 								alt='car'
 							/>
@@ -122,7 +122,7 @@ const UsedCarDetails = () => {
 						* Private route is also used for premium section. The project is
 						mobile friendly responsive.
 					</p>
-					<h1 className='text-lg text-[#4325c5] text-start text-bold font-serif'>
+					<h1 className='text-lg text-[#4325c5] animate-bounce text-start text-bold font-serif'>
 						🔰 Technologies used in this project:
 					</h1>
 					<p className='text-start'>
