@@ -3,40 +3,62 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-			<div className=''>
+			<div>
 				<div className='navbar bg-[#2a2d3a] hidden md:flex'>
-					<div className='flex-1'>
-						<Link className='flex' to='/'>
-							<img className='w-[60px] h-[60px] mt-3' src='hLogo.png' alt='Logo' />
-							<img className='w-[100px]' src='hasanText.png' alt='' />
+					<div className='flex-1 '>
+						<Link className='link' to='/'>
+							<div className='logoStyle'>
+								<div className='logoStyle2 flex'>
+									<img
+										className='w-[60px] h-[60px] mt-3'
+										src='hLogo.png'
+										alt='Logo'
+									/>
+									<img className='w-[100px]' src='hasanText.png' alt='' />
+								</div>
+							</div>
 						</Link>
 					</div>
 
-					<div className='flex-none'>
-						<ul className='menu menu-horizontal p-0 hidden md:flex'>
+					<div className='flex-none '>
+						<ul className='menu menu-horizontal  p-0 hidden md:flex'>
 							<li>
-								<Link className='nav' to='/'>Home</Link>
+								<Link className='nav' to='/'>
+									Home
+								</Link>
 							</li>
 							<li>
-								<Link className='nav' to='/about'>About</Link>
+								<Link className='nav' to='/about'>
+									About
+								</Link>
 							</li>
 							<li>
-								<Link className='nav' to='/blogs'>Blogs</Link>
+								<Link className='nav' to='/blogs'>
+									Blogs
+								</Link>
 							</li>
 							<li>
-								<Link className='nav' to='/projects'>Projects</Link>
+								<Link className='nav' to='/projects'>
+									Projects
+								</Link>
 							</li>
 
 							<li>
-								<Link className='nav' to='/contact'>Contact</Link>
+								<Link className='nav' to='/contact'>
+									Contact
+								</Link>
 							</li>
 						</ul>
 					</div>
 				</div>
 				<div className='navbar bg-[#2a2d3a] flex md:hidden'>
 					<div className='flex-1'>
-					<Link className='flex' to='/'>
-						<img className='w-[60px] h-[60px] mt-3' src='hLogo.png' alt='Logo' />
+						<Link className='flex' to='/'>
+							<img
+								className='w-[60px] h-[60px] mt-3'
+								src='hLogo.png'
+								alt='Logo'
+							/>
 							<img className='w-[100px]' src='hasanText.png' alt='' />
 						</Link>
 					</div>
@@ -50,20 +72,30 @@ const Navbar = () => {
 								className='menu menu-compact dropdown-content mt-3 p-2 pb-4 shadow bg-[#1f212c] rounded-box w-52'
 							>
 								<li>
-									<Link className='nav mt-5' to='/'>Home</Link>
+									<Link className='nav mt-5' to='/'>
+										Home
+									</Link>
 								</li>
 								<li>
-									<Link className='nav mt-5' to='/about'>About</Link>
+									<Link className='nav mt-5' to='/about'>
+										About
+									</Link>
 								</li>
 								<li>
-									<Link className='nav mt-5' to='/blogs'>Blogs</Link>
+									<Link className='nav mt-5' to='/blogs'>
+										Blogs
+									</Link>
 								</li>
 								<li>
-									<Link className='nav mt-5' to='/projects'>Projects</Link>
+									<Link className='nav mt-5' to='/projects'>
+										Projects
+									</Link>
 								</li>
 
 								<li>
-									<Link className='nav mt-5' to='/contact'>Contact</Link>
+									<Link className='nav mt-5' to='/contact'>
+										Contact
+									</Link>
 								</li>
 							</ul>
 						</div>

@@ -1,3 +1,61 @@
+
+.logoStyle{
+  position: relative;
+}
+.logoStyle::before{
+  content: " ";
+  position: absolute;
+  background: linear-gradient(to left, #ff3c78, #fcd71b);
+  width: 0;
+  height: 3px;
+  right: 0;
+  top: 0;
+  transition: 0.5s;
+}
+.link:hover .logoStyle::before{
+  width: 50%;
+}
+.logoStyle::after{
+  content: " ";
+  position: absolute;
+  background: linear-gradient(to left, #ff3c78, #fcd71b);
+  width: 3px;
+  height: 0;
+  top: 0;
+  right: 0;
+  transition: 0.5s;
+}
+.link:hover .logoStyle::after{
+  height: 50%;
+}
+.logoStyle2::before{
+  content: " ";
+  position: absolute;
+  background: linear-gradient(to left, #ff3c78, #fcd71b);
+  width: 0;
+  height:3px;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+.link:hover .logoStyle2::before{
+  width: 50%;
+}
+.logoStyle2::after{
+  content: " ";
+  position: absolute;
+  background: linear-gradient(to left, #ff3c78, #fcd71b);
+  width:3px;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.link:hover .logoStyle2::after{
+  height: 50%;
+}
+
+
 /* todo: Navbar hover effect */
 
 .nav{
