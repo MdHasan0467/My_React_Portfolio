@@ -1,8 +1,17 @@
 import React from 'react';
+import { animated, useSpring } from '@react-spring/web';
 
 const Contact = () => {
+	 const styles = useSpring({
+			to: async (next, cancel) => {
+				await next({ opacity: 1, color: '#ffaaee' });
+				await next({ opacity: 0, color: 'rgb(14,26,19)' });
+			},
+			from: { opacity: 0, color: 'red' },
+		});
     return (
 			<div>
+				<animated.div style={styles}>Contact With Me</animated.div>
 				<div className='hero min-h-screen bg-[#242734] text-white'>
 					<div className='hero-content flex-col lg:flex-row-reverse'>
 						<div className='text-center lg:text-left'>

@@ -7,6 +7,7 @@
 2. Install Tailwindcss
 3. install daisyui
 4. npm install react-reveal --force
+5. npm install react-spring --force
 
 
 

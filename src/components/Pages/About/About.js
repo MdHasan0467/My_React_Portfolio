@@ -1,9 +1,19 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
+import { animated, useSpring } from '@react-spring/web';
 
 const About = () => {
+		const styles = useSpring({
+			to: async (next, cancel) => {
+				await next({ opacity: 1, color: '#ffaaee' });
+				await next({ opacity: 0, color: 'rgb(14,26,19)' });
+			},
+			from: { opacity: 0, color: 'red' },
+		});
+
     return (
 			<div>
+				<animated.div style={styles}>About Me</animated.div>
 				<div className='hero min-h-screen bg-[#242734] text-white'>
 					<div className='hero-content flex-col'>
 						<div>

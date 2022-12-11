@@ -1,8 +1,17 @@
 import React from 'react';
+import { animated, useSpring } from '@react-spring/web';
 
 const Projects = () => {
+	    const styles = useSpring({
+				to: async (next, cancel) => {
+					await next({ opacity: 1, color: '#ffaaee' });
+					await next({ opacity: 0, color: 'rgb(14,26,19)' });
+				},
+				from: { opacity: 0, color: 'red' },
+			});
     return (
 			<div className='min-h-screen'>
+				<animated.div style={styles}>My All Projects</animated.div>
 				<h1 className='text-4xl mb-20 text-pink-500 font-serif font-bold'>
 					My All Projects
 				</h1>
