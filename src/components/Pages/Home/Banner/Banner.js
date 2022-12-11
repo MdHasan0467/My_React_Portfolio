@@ -11,16 +11,11 @@ const Banner = () => {
 			<div>
 				<div className='hero min-h-screen bg-[#242734]'>
 					<div className='hero-content flex-col lg:flex-row-reverse'>
-						<div className='profile '>
-							<div className='profile2'>
-								<img
-									src='meRemove.png'
-									className='w-[250px] lg:w-[384px] lg:max-w-sm rounded-lg shadow-2xl'
-								/>
-							</div>
-						</div>
-
-						<div className='mt-5 md:mt-0 lg:mr-5'>
+						<img
+							src='meRemove.png'
+							className='lg:max-w-sm rounded-lg shadow-2xl'
+						/>
+						<div>
 							<h2 className=' title'>{state.title}</h2>
 							<h2 className=' titleTwo'>{state.titleTwo}</h2>
 							<h2 className=' titleThree'>{state.titleThree}</h2>

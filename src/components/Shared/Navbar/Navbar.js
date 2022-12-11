@@ -53,13 +53,17 @@ const Navbar = () => {
 				</div>
 				<div className='navbar bg-[#2a2d3a] flex md:hidden'>
 					<div className='flex-1'>
-						<Link className='flex' to='/'>
-							<img
-								className='w-[60px] h-[60px] mt-3'
-								src='hLogo.png'
-								alt='Logo'
-							/>
-							<img className='w-[100px]' src='hasanText.png' alt='' />
+						<Link className='link' to='/'>
+							<div className='logoStyle'>
+								<div className='logoStyle2 flex'>
+									<img
+										className='w-[60px] h-[60px] mt-3'
+										src='hLogo.png'
+										alt='Logo'
+									/>
+									<img className='w-[100px]' src='hasanText.png' alt='' />
+								</div>
+							</div>
 						</Link>
 					</div>
 					<div className='flex-none'>
