@@ -1,6 +1,7 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from '../../Pages/About/About';
+import Blogs from '../../Pages/Blogs/Blogs';
 import Contact from '../../Pages/Contact/Contact';
 import Home from '../../Pages/Home/Home';
 import OnlineCourseDetails from '../../Pages/OnlineCourseDetails/OnlineCourseDetails';
@@ -26,6 +27,10 @@ const Route = () => {
 					{
 						path: '/about',
 						element: <About></About>,
+					},
+					{
+						path: '/blogs',
+						element: <Blogs></Blogs>
 					},
 					{
 						path: '/contact',

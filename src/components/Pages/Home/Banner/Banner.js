@@ -13,7 +13,7 @@ const Banner = () => {
 					<div className='hero-content flex-col lg:flex-row-reverse'>
 						<img
 							src='meRemove.png'
-							className='w-150px lg:max-w-sm rounded-lg shadow-2xl'
+							className=' lg:max-w-sm rounded-lg shadow-2xl'
 						/>
 						<div>
 							<h2 className=' title'>{state.title}</h2>

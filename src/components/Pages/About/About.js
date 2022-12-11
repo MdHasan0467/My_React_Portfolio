@@ -21,7 +21,7 @@ const About = () => {
 							<div className='grid grid-cols-1 md:grid-cols-3 gap-5 my-7'>
 								<img
 									src='my-desktop-pic.jpg'
-									className='max-w-sm rounded-lg shadow-2xl'
+									className='lg:max-w-sm rounded-lg shadow-2xl'
 								/>
 								<div>
 									<h1 className='text-5xl text-start font-bold border border-gray-400 shadow-lg shadow-gray-500 p-3 rounded-lg'>
