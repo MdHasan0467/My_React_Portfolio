@@ -6,7 +6,7 @@
 1. React router dom
 2. Install Tailwindcss
 3. install daisyui
-4. npm i typewriter-effect
+4. npm install react-reveal --force
 
 
 

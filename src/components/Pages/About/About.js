@@ -1,5 +1,5 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 const About = () => {
     return (
@@ -19,7 +19,7 @@ const About = () => {
 									users will find easy to use and visually appealing.
 								</h2>
 							</div>
-							<Fade left>
+							<Zoom left>
 								<div className='grid grid-cols-1 md:grid-cols-3 gap-5 my-7'>
 									<img
 										src='my-desktop-pic.jpg'
@@ -96,7 +96,7 @@ const About = () => {
 										</ul>
 									</div>
 								</div>
-							</Fade>
+							</Zoom>
 						</div>
 					</div>
 				</div>
