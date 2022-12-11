@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 const ProjectsForHome = () => {
     return (
 			<div>
+				<h1 className='text-5xl text-start font-bold border border-gray-400 shadow-lg shadow-gray-700 p-3 rounded-lg m-5 mb-10'>
+					My Projects :
+				</h1>
 				<div className='grid grid-cols-1 lg:grid-cols-3 gap-4 lg:ml-7'>
 					<div className='card w-96 bg-base-100 shadow-xl image-full'>
 						<figure>
@@ -21,9 +24,9 @@ const ProjectsForHome = () => {
 								Dotenv, Express.js, Node.js,MongoDB
 							</p>
 							<div className='card-actions flex justify-end'>
-								
-									<Link className='button' to='/photoshopdetails'>Details</Link>
-								
+								<Link className='button' to='/photoshopdetails'>
+									Details
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -42,10 +45,11 @@ const ProjectsForHome = () => {
 								React, React-Tailwindcss, React Router, TanStack Query, Cors,
 								Dotenv, Express.js, Node.js,MongoDB
 							</p>
+							
 							<div className='card-actions flex justify-end'>
-								
-									<Link className='button' to='/usedcardetails'>Details</Link>
-								
+								<Link className='button' to='/usedcardetails'>
+									Details
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -65,9 +69,9 @@ const ProjectsForHome = () => {
 								Dotenv, Express.js
 							</p>
 							<div className='card-actions flex justify-end'>
-								
-									<Link className='button' to='/onlinecoursedetails'>Details</Link>
-								
+								<Link className='button' to='/onlinecoursedetails'>
+									Details
+								</Link>
 							</div>
 						</div>
 					</div>

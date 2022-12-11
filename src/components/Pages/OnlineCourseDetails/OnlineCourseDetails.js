@@ -5,7 +5,7 @@ const OnlineCourseDetails = () => {
     return (
 			<div>
 				<div className='card w-[100vw] glass h-[100%]'>
-					<h1 className='text-start md:ml-28  my-2'>
+					<h1 className='text-start ml-28  my-2'>
 						Click the image for view mode
 					</h1>
 					<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ml-0 md:mx-auto '>
@@ -95,7 +95,7 @@ const OnlineCourseDetails = () => {
 						</PhotoProvider>
 					</div>
 					<div className='card-body'>
-						<h2 className='card-title text-yellow-400'>Online Course</h2>
+						<h2 className='card-title text-yellow-400'>🔰Online Course</h2>
 						<p className='text-start'>
 							* This project is about a platform of online course sells.
 						</p>
@@ -110,23 +110,35 @@ const OnlineCourseDetails = () => {
 							* Private route is also used for premium section. The project is
 							mobile friendly responsive.
 						</p>
+						<h1 className='text-lg text-[#4325c5] text-start text-bold font-serif'>
+							🔰 Technologies used in this project:
+						</h1>
+						<p className='text-start'>
+							<span className='text-gray-800 font-bold'>Frontend:</span> React,
+							React-Tailwindcss, React Router, TanStack Query and etc.
+						</p>
+
+						<p className='text-start'>
+							<span className='text-gray-800 font-bold'>Backend :</span> Cors,
+							Dotenv, Express.js, Node.js
+						</p>
+						
 						<div className='card-actions flex justify-end'>
-							
-								<a className='button'
-									target={'blank'}
-									href='https://github.com/MdHasan0467/react-authentication-client'
-								>
-									Source Code
-								</a>
-							
-							
-								<a className='button'
-									target={'blank'}
-									href='https://assignment-ten-625db.web.app/courses'
-								>
-									Details
-								</a>
-							
+							<a
+								className='button'
+								target={'blank'}
+								href='https://github.com/MdHasan0467/react-authentication-client'
+							>
+								Source Code
+							</a>
+
+							<a
+								className='button'
+								target={'blank'}
+								href='https://assignment-ten-625db.web.app/courses'
+							>
+								Details
+							</a>
 						</div>
 					</div>
 				</div>
