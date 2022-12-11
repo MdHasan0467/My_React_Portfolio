@@ -1,4 +1,29 @@
+/* todo: Navbar hover effect */
 
+.nav{
+  position: relative;
+  padding: 0 10px;
+  color: #bebdbd;
+  letter-spacing: 0.5px;
+}
+.nav::after{
+  content: "";
+  position: absolute;
+  background: #ff3c78;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.nav:hover{
+  color: #fff;
+}
+.nav:hover::after{
+ width: 100%;
+}
+
+/* !=======>END<======== */
 
 /* todo: Banner text effect */
 
