@@ -1,3 +1,6 @@
+.cardBG{
+    background: linear-gradient(to top right, #ff3c78, #fcd71b);
+}
 
 .logoStyle{
   position: relative;

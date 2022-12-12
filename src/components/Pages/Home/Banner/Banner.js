@@ -21,40 +21,13 @@ const Banner = () => {
     return (
 			<div>
 				<animated.div style={styles}>Home</animated.div>
-				<div className='hero min-h-screen bg-[#242734]'>
+				<div className='hero min-h-screen bg-[#242734] md:relative'>
 					<div className='hero-content flex-col lg:flex-row-reverse'>
 						<img
 							src='meRemove.png'
 							className='lg:max-w-sm rounded-lg shadow-2xl'
 						/>
-						<div className='icons flex md:block'>
-							<div className='md:my-5 mx-5 md:mx-0 text-2xl hover:text-[#fcd71b] cursor-pointer icon'>
-								<a
-									target={'_blank'}
-									href='https://www.facebook.com/ornilhasan0467/'
-								>
-									<BsFacebook></BsFacebook>
-								</a>
-							</div>
-							<div className='md:my-5 mx-5 md:mx-0 text-2xl hover:text-[#ff3c78] cursor-pointer icon'>
-								<a href=''>
-									<BsTwitter></BsTwitter>
-								</a>
-							</div>
-							<div className='md:my-5 mx-5 md:mx-0 text-2xl hover:text-[#fcd71b] cursor-pointer icon'>
-								<a target={'_blank'} href='https://github.com/MdHasan0467'>
-									<BsGithub></BsGithub>
-								</a>
-							</div>
-							<div className='md:my-5 mx-5 md:mx-0 text-2xl hover:text-[#ff3c78] cursor-pointer icon'>
-								<a
-									target={'_blank'}
-									href='https://www.linkedin.com/in/md-hasan-8aa8b7259/'
-								>
-									<BsLinkedin></BsLinkedin>
-								</a>
-							</div>
-						</div>
+
 						<div>
 							<div className='mt-10 md:mt-0'>
 								<h2 className=' title text-4xl text-start my-2'>
@@ -81,6 +54,34 @@ const Banner = () => {
 									</a>
 								</button>
 							</div>
+						</div>
+					</div>
+					<div className='icons flex md:block md:absolute md:right-10 md:top-[35%]'>
+						<div className='md:my-5 mx-5 md:mx-0 text-2xl hover:text-[#fcd71b] cursor-pointer icon'>
+							<a
+								target={'_blank'}
+								href='https://www.facebook.com/ornilhasan0467/'
+							>
+								<BsFacebook></BsFacebook>
+							</a>
+						</div>
+						<div className='md:my-5 mx-5 md:mx-0 text-2xl hover:text-[#ff3c78] cursor-pointer icon'>
+							<a href=''>
+								<BsTwitter></BsTwitter>
+							</a>
+						</div>
+						<div className='md:my-5 mx-5 md:mx-0 text-2xl hover:text-[#fcd71b] cursor-pointer icon'>
+							<a target={'_blank'} href='https://github.com/MdHasan0467'>
+								<BsGithub></BsGithub>
+							</a>
+						</div>
+						<div className='md:my-5 mx-5 md:mx-0 text-2xl hover:text-[#ff3c78] cursor-pointer icon'>
+							<a
+								target={'_blank'}
+								href='https://www.linkedin.com/in/md-hasan-8aa8b7259/'
+							>
+								<BsLinkedin></BsLinkedin>
+							</a>
 						</div>
 					</div>
 				</div>

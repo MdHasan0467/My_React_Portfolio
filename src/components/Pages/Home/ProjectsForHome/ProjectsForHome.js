@@ -8,25 +8,21 @@ import Flip from 'react-reveal/Flip';
 const ProjectsForHome = () => {
 
     return (
-		<div>
-			
+			<div>
 				<h1 className='text-5xl text-start font-bold border border-gray-400 shadow-lg shadow-gray-700 p-3 rounded-lg m-5 mb-10'>
 					My Projects :
 				</h1>
 				<div className='grid grid-cols-1 lg:grid-cols-3 gap-4 lg:ml-7'>
 					<LightSpeed left>
-						<div className='card w-96 bg-base-100 shadow-xl image-full'>
-							<figure>
-								<img src='photoShopCover.png' alt='Shoes' />
-							</figure>
+						<div className='card px-8 py-10 relative  w-96 border border-gray-500 cardBG opacity-0 hover:opacity-70'>
 							<div className='card-body'>
-								<h1 className='text-lg text-yellow-400 text-start text-bold font-serif'>
-									A website for hiring a photographer
+								<h1 className='mt-[-20px] text-white text-2xl text-start text-bold font-serif'>
+									Photographer Portfolio
 								</h1>
-								<h2 className='text-lg text-pink-500 text-start text-bold font-serif'>
-									Technologies used in this project:
+								<h2 className='text-lg text-gray-800 text-start text-bold font-serif'>
+									Technologies used:
 								</h2>
-								<p className='text-start'>
+								<p className='text-start text-gray-800'>
 									React, React-Tailwindcss, React Router, TanStack Query, Cors,
 									Dotenv, Express.js, Node.js,MongoDB
 								</p>
@@ -39,18 +35,15 @@ const ProjectsForHome = () => {
 						</div>
 					</LightSpeed>
 					<Zoom left>
-						<div className='card w-96 bg-base-100 shadow-xl image-full'>
-							<figure>
-								<img src='usedCarCover.png' alt='Shoes' />
-							</figure>
+						<div className='card px-8 py-10 relative  w-96 border border-gray-500 cardBG opacity-0 hover:opacity-70'>
 							<div className='card-body'>
-								<h1 className='text-lg text-yellow-400 text-start text-bold font-serif'>
-									A website for buying used car
+								<h1 className='mt-[-20px] text-white text-3xl text-start text-bold font-serif'>
+									Used Car Sell Shop
 								</h1>
-								<h2 className='text-lg text-pink-500 text-start text-bold font-serif'>
-									Technologies used in this project:
+								<h2 className='text-lg text-gray-800 text-start text-bold font-serif'>
+									Technologies used:
 								</h2>
-								<p className='text-start'>
+								<p className='text-start text-gray-800'>
 									React, React-Tailwindcss, React Router, TanStack Query, Cors,
 									Dotenv, Express.js, Node.js,MongoDB
 								</p>
@@ -64,18 +57,15 @@ const ProjectsForHome = () => {
 						</div>
 					</Zoom>
 					<Flip left>
-						<div className='card w-96 bg-base-100 shadow-xl image-full'>
-							<figure>
-								<img src='courseCover.png' alt='Shoes' />
-							</figure>
+						<div className='card px-8 py-10 relative  w-96 border border-gray-500 cardBG opacity-0 hover:opacity-70'>
 							<div className='card-body'>
-								<h1 className='text-lg text-yellow-400 text-start text-bold font-serif'>
-									A website about online course
+								<h1 className='mt-[-20px] text-white text-3xl text-start text-bold font-serif'>
+									Online Course
 								</h1>
-								<h2 className='text-lg text-pink-500 text-start text-bold font-serif'>
-									Technologies used in this project:
+								<h2 className='text-lg text-gray-800 text-start text-bold font-serif'>
+									Technologies used:
 								</h2>
-								<p className='text-start'>
+								<p className='text-start text-gray-800'>
 									React, React-Tailwindcss, React Router, TanStack Query, Cors,
 									Dotenv, Express.js
 								</p>

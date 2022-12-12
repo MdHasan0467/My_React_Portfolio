@@ -5,7 +5,7 @@ import ProjectsForHome from './ProjectsForHome/ProjectsForHome';
 
 const Home = () => {
     return (
-			<div className='min-h-screen'>
+			<div className='min-h-screen pb-10'>
 				<Banner></Banner>
 				<ProjectsForHome></ProjectsForHome>
 			</div>
