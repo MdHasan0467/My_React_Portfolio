@@ -56,7 +56,7 @@ const Projects = () => {
 					</div>
 					<div
 						className='card w-96 bg-base-100 shadow-xl image-full'
-						data-aos='fadeInUp'
+						data-aos='flip-down'
 					>
 						<figure>
 							<img src='usedCarCover.png' alt='Used Car' />
@@ -91,7 +91,11 @@ const Projects = () => {
 							</div>
 						</div>
 					</div>
-					<div className='card w-96 bg-base-100 shadow-xl image-full'>
+					<div
+						className='card w-96 bg-base-100 shadow-xl image-full'
+						data-aos='fade-down-right'
+						data-aos-duration='4000'
+					>
 						<figure>
 							<img src='courseCover.png' alt='Shoes' />
 						</figure>
