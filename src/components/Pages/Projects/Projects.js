@@ -19,7 +19,7 @@ const Projects = () => {
 					<div
 						className='card w-96 bg-base-100 shadow-xl image-full'
 						data-aos='fade-up'
-						data-aos-anchor='.other-element'
+						data-aos-duration='4000'
 					>
 						<figure>
 							<img src='photoShopCover.png' alt='Shoes' />
@@ -57,6 +57,7 @@ const Projects = () => {
 					<div
 						className='card w-96 bg-base-100 shadow-xl image-full'
 						data-aos='flip-down'
+						data-aos-duration='4000'
 					>
 						<figure>
 							<img src='usedCarCover.png' alt='Used Car' />

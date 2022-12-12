@@ -8,6 +8,7 @@ import OnlineCourseDetails from '../../Pages/OnlineCourseDetails/OnlineCourseDet
 import PhotoShopDetails from '../../Pages/PhotoShopDetails/PhotoShopDetails';
 import Projects from '../../Pages/Projects/Projects';
 import UsedCarDetails from '../../Pages/UsedCarDetails/UsedCarDetails';
+import Error from '../../Shared/Error/Error';
 import Main from '../Main/Main';
 
 const Route = () => {
@@ -18,6 +19,10 @@ const Route = () => {
 				children: [
 					{
 						path: '/',
+						element: <Home></Home>,
+					},
+					{
+						path: '/home',
 						element: <Home></Home>,
 					},
 					{
@@ -49,7 +54,11 @@ const Route = () => {
 						element: <UsedCarDetails></UsedCarDetails>,
 					},
 				],
-			},
+		},
+		{
+			path: '*',
+			element:<Error></Error>
+		}
 		]);
     return (
         <div>
