@@ -26,8 +26,8 @@ const Banner = () => {
 							src='meRemove.png'
 							className='lg:max-w-sm rounded-lg shadow-2xl'
 						/>
-						<div className='icons'>
-							<div className='my-5 text-2xl hover:text-[#fcd71b] cursor-pointer icon'>
+						<div className='icons flex md:block'>
+							<div className='md:my-5 mx-5 md:mx-0 text-2xl hover:text-[#fcd71b] cursor-pointer icon'>
 								<a
 									target={'_blank'}
 									href='https://www.facebook.com/ornilhasan0467/'
@@ -35,17 +35,17 @@ const Banner = () => {
 									<BsFacebook></BsFacebook>
 								</a>
 							</div>
-							<div className='my-5 text-2xl hover:text-[#ff3c78] cursor-pointer icon'>
+							<div className='md:my-5 mx-5 md:mx-0 text-2xl hover:text-[#ff3c78] cursor-pointer icon'>
 								<a href=''>
 									<BsTwitter></BsTwitter>
 								</a>
 							</div>
-							<div className='my-5 text-2xl hover:text-[#fcd71b] cursor-pointer icon'>
+							<div className='md:my-5 mx-5 md:mx-0 text-2xl hover:text-[#fcd71b] cursor-pointer icon'>
 								<a target={'_blank'} href='https://github.com/MdHasan0467'>
 									<BsGithub></BsGithub>
 								</a>
 							</div>
-							<div className='my-5 text-2xl hover:text-[#ff3c78] cursor-pointer icon'>
+							<div className='md:my-5 mx-5 md:mx-0 text-2xl hover:text-[#ff3c78] cursor-pointer icon'>
 								<a
 									target={'_blank'}
 									href='https://www.linkedin.com/in/md-hasan-8aa8b7259/'
