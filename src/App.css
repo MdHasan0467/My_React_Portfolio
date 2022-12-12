@@ -56,6 +56,28 @@
 }
 
 
+/* todo: icon========= */
+
+.icon{
+  position: relative;
+}
+.icon::before{
+    content: "";
+  position: absolute;
+  /* background: #ff3c78; */
+  background: white;
+  border-radius: 20px;
+  height: 0;
+  width: 5px;
+  left: -10px;
+  bottom:0;
+  transition: 0.5s;
+}
+.icon:hover::before{
+  background: linear-gradient(to left, #ff3c78, #fcd71b);
+  height: 100%;
+}
+
 /* todo: Navbar hover effect */
 
 .nav{

@@ -11,12 +11,16 @@ const Projects = () => {
 			});
     return (
 			<div className='min-h-screen'>
-				<animated.div style={styles}>My All Projects</animated.div>
+				<animated.div style={styles}>My Projects</animated.div>
 				<h1 className='text-4xl mb-20 text-pink-500 font-serif font-bold'>
 					My All Projects
 				</h1>
 				<div className='grid grid-cols-1 lg:grid-cols-3 gap-4 lg:ml-7'>
-					<div className='card w-96 bg-base-100 shadow-xl image-full'>
+					<div
+						className='card w-96 bg-base-100 shadow-xl image-full'
+						data-aos='fade-up'
+						data-aos-anchor='.other-element'
+					>
 						<figure>
 							<img src='photoShopCover.png' alt='Shoes' />
 						</figure>
@@ -50,7 +54,10 @@ const Projects = () => {
 							</div>
 						</div>
 					</div>
-					<div className='card w-96 bg-base-100 shadow-xl image-full'>
+					<div
+						className='card w-96 bg-base-100 shadow-xl image-full'
+						data-aos='fadeInUp'
+					>
 						<figure>
 							<img src='usedCarCover.png' alt='Used Car' />
 						</figure>

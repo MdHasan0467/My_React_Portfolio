@@ -8,6 +8,10 @@
 3. install daisyui
 4. npm install react-reveal --force
 5. npm install react-spring --force
+6.  npm install framer-motion --force
+<!-- 7. npm i react-motion --force -->
+8. npm install --force aos@next
+9. npm install react-icons --force
 
 
 

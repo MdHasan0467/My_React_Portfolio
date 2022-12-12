@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { animated, useSpring } from '@react-spring/web';
+import { BsFacebook, BsTwitter, BsGithub, BsLinkedin } from 'react-icons/bs';
 
 const Banner = () => {
     const [state] = useState({
@@ -18,13 +19,41 @@ const Banner = () => {
 			});
     return (
 			<div>
-			<animated.div style={styles}>Home Page</animated.div>
+				<animated.div style={styles}>Home</animated.div>
 				<div className='hero min-h-screen bg-[#242734]'>
 					<div className='hero-content flex-col lg:flex-row-reverse'>
 						<img
 							src='meRemove.png'
 							className='lg:max-w-sm rounded-lg shadow-2xl'
 						/>
+						<div className='icons'>
+							<div className='my-5 text-2xl hover:text-[#fcd71b] cursor-pointer icon'>
+								<a
+									target={'_blank'}
+									href='https://www.facebook.com/ornilhasan0467/'
+								>
+									<BsFacebook></BsFacebook>
+								</a>
+							</div>
+							<div className='my-5 text-2xl hover:text-[#ff3c78] cursor-pointer icon'>
+								<a href=''>
+									<BsTwitter></BsTwitter>
+								</a>
+							</div>
+							<div className='my-5 text-2xl hover:text-[#fcd71b] cursor-pointer icon'>
+								<a target={'_blank'} href='https://github.com/MdHasan0467'>
+									<BsGithub></BsGithub>
+								</a>
+							</div>
+							<div className='my-5 text-2xl hover:text-[#ff3c78] cursor-pointer icon'>
+								<a
+									target={'_blank'}
+									href='https://www.linkedin.com/in/md-hasan-8aa8b7259/'
+								>
+									<BsLinkedin></BsLinkedin>
+								</a>
+							</div>
+						</div>
 						<div>
 							<h2 className=' title text-4xl text-start my-2'>{state.title}</h2>
 							<h2 className=' titleTwo text-4xl text-start my-2'>
