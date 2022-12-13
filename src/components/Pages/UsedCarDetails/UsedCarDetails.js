@@ -3,7 +3,7 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 const UsedCarDetails = () => {
 	return (
 		<div>
-			<div className='card w-[100vw] glass h-[100%]'>
+			<div className='card w-[100vw] glass h-[100%] bg-[#032249]'>
 				<h1 className='text-start ml-28  my-2'>
 					Click the image for view mode
 				</h1>

@@ -3,7 +3,7 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 
 const PhotoShopDetails = () => {
 	return (
-		<div className=''>
+		<div className='bg-[#032249]'>
 			<div className='card w-[100vw] glass h-[100%]'>
 				<h1 className='text-start ml-28  my-2'>
 					Click the image for view mode

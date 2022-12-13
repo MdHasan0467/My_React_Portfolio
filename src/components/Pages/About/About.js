@@ -12,9 +12,9 @@ const About = () => {
 		});
 
     return (
-			<div>
+			<div className='bg-[#032249]'>
 				<animated.div style={styles}>About Me</animated.div>
-				<div className='hero min-h-screen bg-[#242734] text-white'>
+				<div className='hero min-h-screen bg-[#032249] text-white'>
 					<div className='hero-content flex-col'>
 						<div>
 							<div className='my-10'>

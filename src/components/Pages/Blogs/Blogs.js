@@ -11,9 +11,9 @@ const Blogs = () => {
 			from: { opacity: 0, color: 'red' },
 		});
     return (
-			<div>
+			<div className='bg-[#032249]'>
 				<animated.div style={styles}>Blogs</animated.div>
-				<div className='hero min-h-screen bg-[#242734] text-white'>
+				<div className='hero min-h-screen bg-[#032249] text-white'>
 					<h1>
 						Coming Soon <span className='animate-ping'> . . . </span>
 					</h1>

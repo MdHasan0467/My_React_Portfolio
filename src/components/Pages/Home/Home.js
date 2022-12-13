@@ -5,7 +5,7 @@ import ProjectsForHome from './ProjectsForHome/ProjectsForHome';
 
 const Home = () => {
     return (
-			<div className='min-h-screen pb-10'>
+			<div className='min-h-screen pb-10 bg-[#032249]'>
 				<Banner></Banner>
 				<ProjectsForHome></ProjectsForHome>
 			</div>

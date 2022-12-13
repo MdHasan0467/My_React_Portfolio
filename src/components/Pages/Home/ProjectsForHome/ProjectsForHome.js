@@ -8,8 +8,8 @@ import Flip from 'react-reveal/Flip';
 const ProjectsForHome = () => {
 
     return (
-			<div>
-				<h1 className='text-5xl text-start font-bold border border-gray-400 shadow-lg shadow-gray-700 p-3 rounded-lg m-5 mb-10'>
+			<div className='bg-[#032249]'>
+				<h1 className='text-5xl text-start font-bold shadow-lg shadow-[#1e3d63] p-3 rounded-lg m-5 mb-10'>
 					My Projects :
 				</h1>
 				<div className='grid grid-cols-1 lg:grid-cols-3 gap-4 lg:ml-7'>

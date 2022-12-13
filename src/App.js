@@ -5,9 +5,8 @@ import 'react-photo-view/dist/react-photo-view.css';
 
 function App() {
   return (
-		<div className='App'>
+		<div className='App bg-[#032249]'>
 			<Route></Route>
-			
 		</div>
 	);
 }

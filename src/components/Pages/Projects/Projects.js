@@ -10,7 +10,7 @@ const Projects = () => {
 				from: { opacity: 0, color: 'red' },
 			});
     return (
-			<div className='min-h-screen'>
+			<div className='min-h-screen bg-[#032249]'>
 				<animated.div style={styles}>My Projects</animated.div>
 				<h1 className='text-4xl mb-20 text-pink-500 font-serif font-bold'>
 					My All Projects

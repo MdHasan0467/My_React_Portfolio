@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { animated, useSpring } from '@react-spring/web';
 import { BsFacebook, BsTwitter, BsGithub, BsLinkedin } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
+import { Zoom } from 'react-reveal';
+import Flip from 'react-reveal/Flip';
+
 
 const Banner = () => {
     const [state] = useState({
@@ -19,15 +22,22 @@ const Banner = () => {
 				from: { opacity: 0, color: 'red' },
 			});
     return (
-			<div>
+			<div className='bg-[#032249]'>
 				<animated.div style={styles}>Home</animated.div>
-				<div className='hero min-h-screen bg-[#242734] md:relative'>
+				<div className='hero min-h-screen banner relative'>
 					<div className='hero-content flex-col lg:flex-row-reverse'>
-						<img
-							src='meRemove.png'
-							className='lg:max-w-sm rounded-lg shadow-2xl'
-						/>
-
+						<Zoom right>
+							<img
+								src='meRemove.png'
+								className='md:max-w-sm rounded-lg  profileBG hidden md:block shadow-2xl'
+							/>
+						</Zoom>
+						<Flip left>
+							<img
+								src='meRemove.png'
+								className=' rounded-lg md:hidden block profileBGMobile shadow-2xl'
+							/>
+						</Flip>
 						<div>
 							<div className='mt-10 md:mt-0'>
 								<h2 className=' title text-4xl text-start my-2'>
@@ -56,7 +66,7 @@ const Banner = () => {
 							</div>
 						</div>
 					</div>
-					<div className='icons flex md:block md:absolute md:right-10 md:top-[35%]'>
+					<div className='icons hidden md:block md:absolute md:right-10 md:top-[35%]'>
 						<div className='md:my-5 mx-5 md:mx-0 text-2xl hover:text-[#fcd71b] cursor-pointer icon'>
 							<a
 								target={'_blank'}
@@ -76,6 +86,34 @@ const Banner = () => {
 							</a>
 						</div>
 						<div className='md:my-5 mx-5 md:mx-0 text-2xl hover:text-[#ff3c78] cursor-pointer icon'>
+							<a
+								target={'_blank'}
+								href='https://www.linkedin.com/in/md-hasan-8aa8b7259/'
+							>
+								<BsLinkedin></BsLinkedin>
+							</a>
+						</div>
+					</div>
+					<div className='icons block md:hidden absolute right-5 top-[12%]'>
+						<div className='my-5 mx-5 text-2xl hover:text-blue-700 cursor-pointer iconMobile'>
+							<a
+								target={'_blank'}
+								href='https://www.facebook.com/ornilhasan0467/'
+							>
+								<BsFacebook></BsFacebook>
+							</a>
+						</div>
+						<div className='my-5 mx-5 text-2xl hover:text-white cursor-pointer iconMobile'>
+							<a href=''>
+								<BsTwitter></BsTwitter>
+							</a>
+						</div>
+						<div className='my-5 mx-5 text-2xl hover:text-gray-700 cursor-pointer iconMobile'>
+							<a target={'_blank'} href='https://github.com/MdHasan0467'>
+								<BsGithub></BsGithub>
+							</a>
+						</div>
+						<div className='my-5 mx-5 text-2xl hover:text-white cursor-pointer iconMobile'>
 							<a
 								target={'_blank'}
 								href='https://www.linkedin.com/in/md-hasan-8aa8b7259/'

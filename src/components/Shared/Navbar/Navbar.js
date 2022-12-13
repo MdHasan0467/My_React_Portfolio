@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
 			<div>
-				<div className='navbar bg-[#2a2d3a] hidden md:flex'>
+				<div className='navbar bg-[#032249] hidden md:flex'>
 					<div className='flex-1 '>
 						<Link className='link' to='/'>
 							<div className='logoStyle'>
 								<div className='logoStyle2 flex'>
 									<img
-										className='w-[60px] h-[60px] mt-3'
+										className='w-[40px] h-[40px] mt-6'
 										src='hLogo.png'
 										alt='Logo'
 									/>

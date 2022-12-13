@@ -3,7 +3,7 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 
 const OnlineCourseDetails = () => {
     return (
-			<div>
+			<div className='bg-[#032249]'>
 				<div className='card w-[100vw] glass h-[100%]'>
 					<h1 className='text-start ml-28  my-2'>
 						Click the image for view mode
@@ -122,7 +122,7 @@ const OnlineCourseDetails = () => {
 							<span className='text-gray-800 font-bold'>Backend :</span> Cors,
 							Dotenv, Express.js, Node.js
 						</p>
-						
+
 						<div className='card-actions flex justify-end'>
 							<a
 								className='button'

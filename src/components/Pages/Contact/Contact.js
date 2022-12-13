@@ -10,16 +10,16 @@ const Contact = () => {
 			from: { opacity: 0, color: 'red' },
 		});
     return (
-			<div>
+			<div className='bg-[#032249]'>
 				<animated.div style={styles}>Contact With Me</animated.div>
-				<div className='hero min-h-screen bg-[#242734] text-white'>
+				<div className='hero min-h-screen bg-[#032249] text-white'>
 					<div className='hero-content flex-col lg:flex-row-reverse'>
 						<div className='text-center lg:text-left'>
 							<p className='py-6'>
 								To contact with me please provide your email address.
 							</p>
 						</div>
-						<div className='card flex-shrink-0 w-full max-w-sm shadow-2xl bg-[#242734] text-white'>
+						<div className='card flex-shrink-0 w-full max-w-sm shadow-2xl cardBG text-white'>
 							<form
 								action='https://formspree.io/f/mvoyedly'
 								method='POST'
@@ -48,7 +48,7 @@ const Contact = () => {
 								</div>
 
 								<div className='form-control mt-6'>
-									<button type='submit' className='btn btn-primary'>
+									<button type='submit' className='button'>
 										Send
 									</button>
 								</div>
