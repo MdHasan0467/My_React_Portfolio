@@ -94,7 +94,7 @@
 .icon{
   position: relative;
 }
-.icon::before{
+.icon::after{
     content: "";
   position: absolute;
   background: white;
@@ -105,7 +105,7 @@
   bottom:0;
   transition: 0.5s;
 }
-.icon:hover::before{
+.icon:hover::after{
   background: linear-gradient(to left, #ff3c78, #fcd71b);
   height: 100%;
 }
