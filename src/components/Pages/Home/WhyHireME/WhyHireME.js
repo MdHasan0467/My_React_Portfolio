@@ -5,16 +5,12 @@ const WhyHireME = () => {
     return (
 			<div className='bg-[#032249] my-5 md:mx-28'>
 				<div className='card lg:card-side bg-[#032249] shadow-xl'>
-					<img src='meRemoveHalf.png' alt='Album' />
+					<img className='md:flex hidden' src='meRemoveHalf.png' alt='Album' />
 
 					<div className='card-body'>
 						<h2 className='font-serif text-3xl text-start'>Why You Hire Me?</h2>
 						<p className='text-start'>
-							Over the past years, I created 100s of websites for my clients. I
-							pride myself on doing quality work and maintain excellent
-							communication. Most of the time I work with WordPress but some
-							technologies I enjoy working with include ReactJS, JavaScript as
-							well as PHP.
+							Over the past years, I created 100s of websites for my clients. I have a strong under-standing of web standards and best practices, and I am passionate about creating websites that users will find easy to use and visually appealing. I pride myself on doing quality work and maintaining excellent communication.
 						</p>
 						<div className='stats bg-[#0a2f5c] text-white shadow my-7'>
 							<div className='stat'>

@@ -11,7 +11,9 @@ const Contact = () => {
 		});
     return (
 			<div className='bg-[#032249]'>
-				<animated.div style={styles}>Contact With Me</animated.div>
+			<animated.div style={styles}>Contact With Me</animated.div>
+			<h1 className='text-start font-serif font-bold flex justify-center mt-20 text-2xl'>For hiring or any information</h1>
+			<h1 className='text-start font-serif font-bold flex justify-center text-2xl'>Please contact with me</h1>
 				<div className='hero min-h-screen bg-[#032249] text-white'>
 					<div className='hero-content flex-col lg:flex-row-reverse'>
 						<div className='text-center lg:text-left'>
@@ -43,7 +45,7 @@ const Contact = () => {
 									<textarea
 										name='message'
 										className='textarea text-gray-800 textarea-bordered'
-										placeholder='Your message'
+										placeholder='Your message for me'
 									></textarea>
 								</div>
 
