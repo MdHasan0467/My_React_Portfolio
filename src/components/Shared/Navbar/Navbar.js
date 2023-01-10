@@ -1,10 +1,11 @@
 import React from 'react';
+import { BsFillGrid3X3GapFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
 			<div>
-				<div className='navbar bg-[#032249] hidden md:flex'>
+				<div className='navbar banner hidden md:flex'>
 					<div className='flex-1 '>
 						<Link className='link' to='/'>
 							<div className='logoStyle'>
@@ -69,7 +70,9 @@ const Navbar = () => {
 					<div className='flex-none'>
 						<div className='dropdown dropdown-end'>
 							<label tabIndex={0} className='btn btn-ghost btn-circle avatar'>
-								<h1 className='text-4xl rounded-full'>⁑</h1>
+							<h1 className='text-4xl rounded-full'>
+							<BsFillGrid3X3GapFill></BsFillGrid3X3GapFill>
+							</h1>
 							</label>
 							<ul
 								tabIndex={0}

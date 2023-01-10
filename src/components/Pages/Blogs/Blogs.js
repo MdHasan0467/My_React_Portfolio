@@ -1,5 +1,5 @@
 import React from 'react';
-import { animated, useSpring } from '@react-spring/web';
+import { useSpring } from '@react-spring/web';
 
 
 const Blogs = () => {
@@ -12,7 +12,6 @@ const Blogs = () => {
 		});
     return (
 			<div className='bg-[#032249]'>
-				<animated.div style={styles}>Blogs</animated.div>
 				<div className='hero min-h-screen bg-[#032249] text-white'>
 					<h1>
 						Coming Soon <span className='animate-ping'> . . . </span>

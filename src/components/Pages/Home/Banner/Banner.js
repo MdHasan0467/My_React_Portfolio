@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { animated, useSpring } from '@react-spring/web';
+import { useSpring } from '@react-spring/web';
 import { BsFacebook, BsTwitter, BsGithub, BsLinkedin } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import { Zoom } from 'react-reveal';
@@ -9,7 +9,8 @@ const Banner = () => {
 	const [state] = useState({
 		title: 'Hello,',
 		titleTwo: "I'm  MD HASAN",
-		titleThree: "I'm  a web developer",
+		titleThree: "Web Developer (Front End)",
+		
 	});
 
 	//
@@ -22,7 +23,6 @@ const Banner = () => {
 	});
 	return (
 		<div className='bg-[#032249]'>
-			<animated.div style={styles}>Home</animated.div>
 			<div className='hero min-h-screen banner relative'>
 				<div className='hero-content flex-col lg:flex-row-reverse'>
 					<Zoom right>
@@ -39,27 +39,35 @@ const Banner = () => {
 					</Flip>
 					<div>
 						<div className='mt-10 md:mt-0'>
-							<h2 className=' title text-4xl text-start my-2'>{state.title}</h2>
-							<h2 className=' titleTwo text-4xl text-start my-2'>
+							<h2 className=' title text-4xl font-serif text-start my-2'>{state.title}</h2>
+							<h2 className=' titleTwo text-4xl font-serif text-start my-2'>
 								{state.titleTwo}
 							</h2>
 							<h2 className=' titleThree text-2xl text-start my-2'>
 								{state.titleThree}
 							</h2>
+							<h2 className=' text-2xl text-start my-2'>
+							<span>I’m a Front End Web developer who is passionate about making error-free websites with 100% client satisfaction. I love to solve real-world problems. I am strategic, and goal-oriented, and always work with an end goal in mind.</span>
+							<Link to='/about'>
+							<span className='text-gray-400 mx-2'>more...</span>
+							</Link>
+							</h2>
 						</div>
 
 						<div className='flex mx-2 mt-20'>
-							<button className='button font-serif font-bold'>
-								<Link to='/contact'>HIRE ME</Link>
-							</button>
-							<button className='button  font-serif font-bold mx-3'>
+						<Link to='/contact'>
+								<button className='button font-serif font-bold'>
+								HIRE ME
+								</button>
+								</Link>
 								<a
 									target={'_blank'}
 									href='https://drive.google.com/file/d/1PeVj9omaA-88c1TrNBZHNgbGkqRGzrLd/view?usp=sharing'
 								>
-									RESUME
-								</a>
+							<button className='button  font-serif font-bold mx-3'>
+							RESUME
 							</button>
+							</a>
 						</div>
 					</div>
 				</div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
-import { animated, useSpring } from '@react-spring/web';
+import { useSpring } from '@react-spring/web';
 
 const About = () => {
 		const styles = useSpring({
@@ -13,7 +13,6 @@ const About = () => {
 
     return (
 			<div className='bg-[#032249]'>
-				<animated.div style={styles}>About Me</animated.div>
 				<div className='hero min-h-screen bg-[#032249] text-white'>
 					<div className='hero-content flex-col'>
 						<div>
