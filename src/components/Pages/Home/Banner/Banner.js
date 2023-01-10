@@ -61,8 +61,8 @@ const Banner = () => {
 								</button>
 								</Link>
 								<a
-									target={'_blank'}
-									href='https://drive.google.com/file/d/1PeVj9omaA-88c1TrNBZHNgbGkqRGzrLd/view?usp=sharing'
+									
+									href='https://drive.google.com/u/0/uc?id=1PeVj9omaA-88c1TrNBZHNgbGkqRGzrLd&export=download'
 								>
 							<button className='button  font-serif font-bold mx-3'>
 							RESUME
