@@ -13,8 +13,10 @@ const Home = () => {
 			<Icons></Icons>
 			</div>
 			<Banner></Banner>
+			<div className='w-[90%]'>
 			<WhyHireME></WhyHireME>
-			<div className="mt-5">
+			</div>
+			<div className="mt-5 w-[90%]">
 			<ProjectsForHome></ProjectsForHome>
 			</div>
 			<Contact></Contact>

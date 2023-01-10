@@ -24,7 +24,7 @@ const Banner = () => {
 	return (
 		<div className='bg-[#032249]'>
 			<div className='hero min-h-screen banner relative'>
-				<div className='hero-content flex-col lg:flex-row-reverse'>
+				<div className='hero-content w-[90%] flex-col lg:flex-row-reverse'>
 					<Zoom right>
 						<img
 							src='meRemove.png'
