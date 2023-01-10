@@ -83,7 +83,7 @@ const Banner = () => {
 						<a href=''>
 							<div
 								className='tooltip hover:tooltip-open tooltip-left tooltip-primary'
-								data-tip='. . .'
+								data-tip='Twitter'
 							>
 								<div className='icon'>
 									<BsTwitter></BsTwitter>
