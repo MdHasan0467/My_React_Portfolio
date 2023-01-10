@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsFillGrid3X3GapFill } from 'react-icons/bs';
+import { BsFillCloudDownloadFill, BsFillGrid3X3GapFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -23,6 +23,13 @@ const Navbar = () => {
 
 					<div className='flex-none '>
 						<ul className='menu menu-horizontal  p-0 hidden md:flex'>
+							<a
+									className='flex nav'
+									href='https://drive.google.com/u/0/uc?id=1PeVj9omaA-88c1TrNBZHNgbGkqRGzrLd&export=download'
+								>
+								<h3>RESUME Download</h3>
+							<BsFillCloudDownloadFill className='w-10 my-auto'></BsFillCloudDownloadFill>
+							</a>
 							<li>
 								<Link className='nav' to='/'>
 									Home
@@ -52,7 +59,7 @@ const Navbar = () => {
 						</ul>
 					</div>
 				</div>
-				<div className='navbar bg-[#2a2d3a] flex md:hidden'>
+				<div className='navbar banner flex md:hidden'>
 					<div className='flex-1'>
 						<Link className='link' to='/'>
 							<div className='logoStyle'>
@@ -78,6 +85,14 @@ const Navbar = () => {
 								tabIndex={0}
 								className='menu menu-compact dropdown-content mt-3 p-2 pb-4 shadow bg-[#1f212c] rounded-box w-52'
 							>
+							<a
+									className='flex nav'
+									href='https://drive.google.com/u/0/uc?id=1PeVj9omaA-88c1TrNBZHNgbGkqRGzrLd&export=download'
+								>
+								<h3>RESUME</h3>
+							<BsFillCloudDownloadFill className='w-10 my-auto'></BsFillCloudDownloadFill>
+							</a>
+
 								<li>
 									<Link className='nav mt-5' to='/'>
 										Home

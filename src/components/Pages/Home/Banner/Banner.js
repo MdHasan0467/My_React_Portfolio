@@ -55,19 +55,17 @@ const Banner = () => {
 						</div>
 
 						<div className='flex mx-2 mt-20'>
-						<Link to='/contact'>
-								<button className='button font-serif font-bold'>
+						   <Link to='/contact'>
+								<button className='button font-serif font-bold mx-3'>
 								HIRE ME
 								</button>
-								</Link>
-								<a
-									
-									href='https://drive.google.com/u/0/uc?id=1PeVj9omaA-88c1TrNBZHNgbGkqRGzrLd&export=download'
-								>
-							<button className='button  font-serif font-bold mx-3'>
-							RESUME
-							</button>
-							</a>
+							</Link>
+								
+							<Link to='/about'>
+								<button className='button font-serif font-bold mx-3'>
+								About Me
+								</button>
+							</Link>
 						</div>
 					</div>
 				</div>
