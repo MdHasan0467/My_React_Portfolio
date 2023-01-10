@@ -38,80 +38,95 @@ const About = () => {
 								
 							</div>
 							<Zoom left>
-								<div className='grid grid-cols-1 md:grid-cols-3 gap-5 my-7'>
-									<img
-										src='my-desktop-pic.jpg'
-										className='lg:max-w-sm rounded-lg shadow-2xl'
-									/>
+								<div className='grid grid-cols-1 md:grid-cols-2 gap-5 my-7'>
+									
 									<div>
 										<h1 className='text-5xl text-start font-bold border border-gray-400 shadow-lg shadow-gray-500 p-3 rounded-lg'>
 											My Skills :
-										</h1>
-										<ul className='my-7'>
-											<li className='text-start rounded-md hover:text-black hover:bg-yellow-50 p-2 cursor-pointer'>
-												{' '}
-												✅ HTML5
+									</h1>
+									<div className="flex justify-start my-7">
+									<ul className="steps steps-vertical">
+											<li className="step step-primary">
+												<h1 className='flex justify-center'>
+													<span className='w-auto my-auto'>HTML5</span>
+													<span className="radial-progress bg-primary text-white mx-5" style={{ "--value": 95, "--size": "3rem" }}>95%</span>
+												</h1>
 											</li>
-											<li className='text-start rounded-md hover:text-black hover:bg-yellow-50 p-2 cursor-pointer'>
-												{' '}
-												✅ CSS3
+
+											<li className="step step-primary my-3">
+												<h1 className='flex justify-center'>
+													<span className='w-auto my-auto'>CSS3</span>
+													<span className="radial-progress bg-primary text-white mx-5" style={{ "--value": 95, "--size": "3rem" }}>95%</span>
+												</h1>
 											</li>
-											<li className='text-start rounded-md hover:text-black hover:bg-yellow-50 p-2 cursor-pointer'>
-												{' '}
-												✅ Tailwindcss
+
+											<li className="step step-primary my-3">
+												<h1 className='flex justify-center'>
+													<span className='w-auto my-auto'>TailwindCSS</span>
+													<span className="radial-progress bg-primary text-white mx-5" style={{ "--value": 95, "--size": "3rem" }}>95%</span>
+												</h1>
 											</li>
-											<li className='text-start rounded-md hover:text-black hover:bg-yellow-50 p-2 cursor-pointer'>
-												{' '}
-												✅ Bootstrap
+
+											<li className="step step-primary my-3">
+												<h1 className='flex justify-center'>
+													<span className='w-auto my-auto'>Bootstrap</span>
+													<span className="radial-progress bg-primary text-white mx-5" style={{ "--value": 95, "--size": "3rem" }}>95%</span>
+												</h1>
 											</li>
-											<li className='text-start rounded-md hover:text-black hover:bg-yellow-50 p-2 cursor-pointer'>
-												{' '}
-												✅ JavaScript
+											<li className="step step-primary my-3">
+												<h1 className='flex justify-center'>
+													<span className='w-auto my-auto'>JavaScript</span>
+													<span className="radial-progress bg-primary text-white mx-5" style={{ "--value": 90, "--size": "3rem" }}>90%</span>
+												</h1>
 											</li>
-											<li className='text-start rounded-md hover:text-black hover:bg-yellow-50 p-2 cursor-pointer'>
-												{' '}
-												✅ React js
+											<li className="step step-primary my-3 ">
+												<h1 className='flex justify-center'>
+													<span className='w-auto my-auto'>React js</span>
+													<span className="radial-progress bg-primary text-white mx-5" style={{ "--value": 60, "--size": "3rem" }}>60%</span>
+												</h1>
 											</li>
-											<li className='text-start rounded-md hover:text-black hover:bg-yellow-50 p-2 cursor-pointer'>
-												{' '}
-												✅ Node js
+											<li className="step step-primary my-3">
+												<h1 className='flex justify-center'>
+													<span className='w-auto my-auto'>Node js</span>
+													<span className="radial-progress bg-primary text-white mx-5" style={{ "--value": 50, "--size": "3rem" }}>50%</span>
+												</h1>
 											</li>
-											<li className='text-start rounded-md hover:text-black hover:bg-yellow-50 p-2 cursor-pointer'>
-												{' '}
-												✅ Firebase
+											<li className="step my-3 ">
+												<h1 className='flex justify-center'>
+													<span className='w-auto my-auto'>Express js</span>
+													<span className="radial-progress bg-primary text-white mx-5" style={{ "--value": 50, "--size": "3rem" }}>50%</span>
+												</h1>
 											</li>
-											<li className='text-start rounded-md hover:text-black hover:bg-yellow-50 p-2 cursor-pointer'>
-												{' '}
-												✅ MongoDB
+											<li className="step my-3 ">
+												<h1 className='flex justify-center'>
+													<span className='w-auto my-auto'>Firebase</span>
+													<span className="radial-progress bg-primary text-white mx-5" style={{ "--value": 60, "--size": "3rem" }}>60%</span>
+												</h1>
 											</li>
-										</ul>
+											<li className="step my-3 ">
+												<h1 className='flex justify-center'>
+													<span className='w-auto my-auto'>MongoDB</span>
+													<span className="radial-progress bg-primary text-white mx-5" style={{ "--value": 65, "--size": "3rem" }}>65%</span>
+												</h1>
+											</li>
+
+									  </ul>
+									</div>
+										
 									</div>
 									<div>
 										<h1 className='text-5xl text-start font-bold border border-gray-400 shadow-lg shadow-gray-500 p-3 rounded-lg'>
 											Tools :
 										</h1>
-										<ul className='my-7'>
-											<li className='text-start rounded-md hover:text-black hover:bg-yellow-50 p-2 cursor-pointer'>
-												{' '}
-												✅ Chrome Dev Tool
-											</li>
-											<li className='text-start rounded-md hover:text-black hover:bg-yellow-50 p-2 cursor-pointer'>
-												{' '}
-												✅ Visual Studio Code
-											</li>
-											<li className='text-start rounded-md hover:text-black hover:bg-yellow-50 p-2 cursor-pointer'>
-												{' '}
-												✅ Netlify
-											</li>
-											<li className='text-start rounded-md hover:text-black hover:bg-yellow-50 p-2 cursor-pointer'>
-												{' '}
-												✅ github
-											</li>
-											<li className='text-start rounded-md hover:text-black hover:bg-yellow-50 p-2 cursor-pointer'>
-												{' '}
-												✅ Vercel
-											</li>
-										</ul>
+									<div className="flex justify-start my-7">
+									<ul className="steps steps-vertical">
+										<li className="step step-primary">Chrome Dev Tool</li>
+										<li className="step step-primary">Visual Studio Code</li>
+										<li className="step step-primary">Netlify</li>
+										<li className="step">github</li>
+										<li className="step">Vercel</li>
+									  </ul>
+									</div>
 									</div>
 								</div>
 							</Zoom>
@@ -123,3 +138,9 @@ const About = () => {
 };
 
 export default About;
+
+
+// <img
+// 	src='my-desktop-pic.jpg'
+// 	className='lg:max-w-sm rounded-lg shadow-2xl'
+// />
